@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #eaeff1;
+        }
+
+        main {
+            font-family: "Roboto";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #eaeff1;
+        }
+
+        .card {
+            border: 3px solid #cfd3d4;
+            background-color: white;
+            padding: 10px;
+            margin: 2px;
+            width: 350px;
+            border-radius: 15px;
+        }
+
+        .card img {
+            border-radius: 15px;
+            width: 100%;
+        }
+
+        .card .card-content {
+            padding: 0px 14px;
+        }
+
+        .card .card-content .tags {
+            display: flex;
+            list-style: none;
+            margin: 12px 0px;
+            color: rgba(0, 0, 0, 0.65);
+        }
+
+        .card .card-content .tags li {
+            padding: 1px 10px;
+            margin: 1px 10px 1px 0px;
+            border: 1.5px solid rgb(207, 192, 192);
+            border-radius: 100px;
+        }
+
+        .card .card-content h2 {
+            margin: 20px 0px;
+            font-size: 2rem;
+            letter-spacing: 0.5px;
+        }
+
+        .card .card-content p {
+            margin: 20px 0px;
+            color: rgb(161, 158, 158);
+        }
+
+        .card .card-content .more {
+            margin: 2.25rem 0px 10px 0px;
+            text-align: center;
+        }
+
+        .card .card-content .more>button {
+            padding: 17px 37px;
+            border: none;
+            border-radius: 100px;
+            font-size: 1em;
+            color: #2b8eff;
+            background-color: #e0efff;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <img src="https://png.pngtree.com/background/20230408/original/pngtree-natural-wallpaper-a-beautiful-scenery-picture-image_2338158.jpg"
+                alt="wallpaper">
+            <div class="card-content">
+                <ul class="tags">
+                    <li>Nature</li>
+                    <li>Scenary</li>
+                </ul>
+                <h2>Lago di Braies</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid architecto reprehenderit minus sit,
+                    quo asperiores. Minima fuga reprehenderit
+                </p>
+                <div class="more"><button>Read More</button></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
